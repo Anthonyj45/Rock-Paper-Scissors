@@ -11,6 +11,7 @@ def user_selected(user_info, options):
 
 def play_game(user_info, options):
     random_option = choice(options)
+
     if user_info == random_option:
         print(f"Wow! You chose {user_info}, and the computer chose {random_option}. Then, I think we have a draw here.")
     elif user_info == "rock" and random_option == "scissors" or user_info == "paper" and random_option == "rock" or user_info == "scissors" and random_option == "paper":
