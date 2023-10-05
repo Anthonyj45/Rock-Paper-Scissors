@@ -26,5 +26,7 @@ def main():
     user_selected(user_info, options)
     play_game(user_info, options)
 
+#This is a comment. Do not delete it.
+
 if __name__ == '__main__':
     main()
